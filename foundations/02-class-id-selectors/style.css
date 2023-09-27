@@ -1,0 +1,21 @@
+.odd {
+    background-color: rgb(240, 160, 172);
+    font-family: Verdana, "DejaVu Sans", sans-serif
+}
+
+/* I originally had the third and fourth element edited for their font size separately but because they both make use of font changes to 24px I made it one class like the solution in case I come back to this later for refreshers*/
+.adjust-font-size {
+    font-size: 24px;
+}
+
+#second {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+
+
+#fourth {
+    background-color: rgb(134, 223, 134);
+    font-weight: bold;
+}
