@@ -20,6 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  /* What I am adding */
+  display: flex;
+  padding: 12px;
+  gap: 8px;
 }
 
 .icon {
@@ -66,4 +71,27 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* What I am adding for the selectors I created */
+
+.left-container, 
+.right-container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header-container {
+  display: flex;
+
+  justify-content: space-between;
 }
